@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-1{
+    height: 100vh;
+    background-image:url(imagens/Papel\ de\ parede\ primeira\ sessão.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0,0.4);
+    z-index: 1;
+}
+
+.conteudo{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 63px;
+    margin-bottom: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn{
+    background: #ff9cc2;
+    padding: 20px 35px;
+    text-decoration: none;
+    color: black;
+    border-radius: 0;
+    transition: 0.3s;
+    display: inline-block;
+    font-family: 'Montserrat' sans-serif;
+}
+
+.btn:hover{
+    background: #f36d8e;
+}
+
+h3{
+    top: 20px;
+    left: 20px;
+    color: white;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-area{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 2;
+}
+
+.logo-area img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.section-2 {
+    background: #3a3a3a;
+    padding: 100px 10%;
+    color: white;
+}
+
+.sec2-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sec2-texto {
+    max-width: 500px;
+}
+
+.sec2-texto h2{
+font-family:'Playfair Display', serif;
+color:#f5c6a5;
+font-size:56px;
+margin-bottom:20px;
+}
+
+.sec2-texto p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.sec2-imagens{
+    display: flex;
+    gap: 15px;
+}
+
+.sec2-imagens img{
+width:260px;
+border-radius:10px;
+object-fit:cover;
+}
+
+.img1{
+    transform:translateY(-20px);
+}
+
+.img2 {
+    transform: translateY(20px);
+}
+
+.section-3{
+    background: #2f2f2f;
+    padding: 100px 10%;
+    text-align: center;
+    color: white;
+}
+
+.section-3 h2{
+    font-family: 'Playfair Display' serif;
+    color: #f5c6a5;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.section-3 p {
+    font-family: 'Poppins', sans-serif;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
+.sec3-imagens{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sec3-imagens img{
+    width: 320px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.section-4 {
+    background: #3a3a3a;
+    padding: 100px 10%;
+    text-align: center;
+    color: white;
+}
+
+.section-4 h2{
+    font-family: 'Playfair Display' serif;
+    color: #f5c6a5;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.sec4-cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 320px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.section-5 {
+    height: 100vh;
+    background-image: url(imagens/Imagem\ da\ ultima\ seção.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+    z-index: 1;
+}
+
+.section-5 h1{
+    position: relative;
+    z-index: 2;
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    margin-bottom: 80px;
+}
+
+.footer-wall{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.footer-col{
+    max-width: 300px;
+}
+
+.footer-col h3{
+font-family:'Poppins', sans-serif;
+margin-bottom:10px;
+font-size:24px;
+}
+
+.footer-col p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.social{
+display:flex;
+gap:20px;
+font-size:30px;
+}
+
+.social a{
+color:white;
+transition:0.3s;
+}
+
+.social a:hover{
+    color: #25D366;
+}
+
+.social a:hover .fa-instagram{
+    color: #e1306c;
+}
+
+.footer-btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#f5c6a5;
+color:black;
+text-decoration:none;
+font-family:'Montserrat', sans-serif;
+transition:0.3s;
+}
+
+.footer-btn:hover{
+background:#f8d8c2;
+}
